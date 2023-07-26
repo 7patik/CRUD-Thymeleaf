@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Crud Api</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" />
+</head>
+<body class="bg-dark" >
+<div >
+<div class="container-fluid text-center" >
+<h1 class="mt-5 text-primary" th:color="white">Welcome to My Application</h1>
+    <button type="button" class="btn btn-outline-danger mt-5 me-3"><a class="h2 m-5 text-decoration-none link-danger" th:href="@{/users}" href="/users" >Manage Users</a></button>
+    <button type="button" class="btn btn-outline-danger mt-5 ms-3"><a class="h2 m-5 text-decoration-none link-danger" th:href="@{/admin}" href="/admin" >Admin Panel</a></button>
+
+</div>
+</div>
+</body>
+</html>
